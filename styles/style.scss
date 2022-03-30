@@ -1,0 +1,28 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  margin-bottom: 40px;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    p {
+      width: 350px;
+      text-align: center;
+    }
+    .stars {
+      display: flex;
+      justify-content: space-between;
+      width: 200px;
+      cursor: pointer;
+      &.colors{
+            color: rgb(252, 177, 38);
+        }
+    }
+  }
+}
