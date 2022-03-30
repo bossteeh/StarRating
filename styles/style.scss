@@ -17,6 +17,20 @@ body {
     align-items: center;
     min-height: 350px;
     width: 400px;
+    button{
+        background-color: blueviolet;
+        padding: 10px 20px;
+        border-radius: 5px;
+        box-shadow: 5px 5px 5px darkgray;
+        a{
+            text-decoration: none;
+            color: white;
+        }
+
+    }
+    img{
+        width: 200px
+    }
     p {
       width: 280px;
       text-align: center;

@@ -39,6 +39,23 @@ body .container {
   width: 400px;
 }
 
+body .container button {
+  background-color: blueviolet;
+  padding: 10px 20px;
+  border-radius: 5px;
+  -webkit-box-shadow: 5px 5px 5px darkgray;
+          box-shadow: 5px 5px 5px darkgray;
+}
+
+body .container button a {
+  text-decoration: none;
+  color: white;
+}
+
+body .container img {
+  width: 200px;
+}
+
 body .container p {
   width: 280px;
   text-align: center;
