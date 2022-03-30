@@ -7,12 +7,18 @@ body {
   align-items: center;
   align-content: center;
   align-self: center;
+  background-color: rgb(221, 218, 218);
   .container {
+    margin-top: 100px;
+    padding: 80px;
+    background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
+    min-height: 350px;
+    width: 400px;
     p {
-      width: 350px;
+      width: 280px;
       text-align: center;
     }
     .stars {
@@ -20,9 +26,22 @@ body {
       justify-content: space-between;
       width: 200px;
       cursor: pointer;
-      &.colors{
-            color: rgb(252, 177, 38);
-        }
+      &.colors {
+        color: rgb(252, 177, 38);
+      }
+    }
+  }
+}
+@media screen and (max-width: 500px) {
+  body {
+    background-color: white;
+    .container {
+      margin-top: 0px;
+      border: 2px solid red;
+    padding-left: 230px;
+      flex-direction: column;
+      align-items: center;
+
     }
   }
 }

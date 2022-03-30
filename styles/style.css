@@ -18,9 +18,13 @@ body {
       align-content: center;
   -ms-flex-item-align: center;
       align-self: center;
+  background-color: #dddada;
 }
 
 body .container {
+  margin-top: 100px;
+  padding: 80px;
+  background-color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -31,10 +35,12 @@ body .container {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  min-height: 350px;
+  width: 400px;
 }
 
 body .container p {
-  width: 350px;
+  width: 280px;
   text-align: center;
 }
 
@@ -51,5 +57,23 @@ body .container .stars {
 
 body .container .stars.colors {
   color: #fcb126;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    background-color: white;
+  }
+  body .container {
+    margin-top: 0px;
+    border: 2px solid red;
+    padding-left: 230px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }
 /*# sourceMappingURL=style.css.map */
