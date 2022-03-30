@@ -86,7 +86,6 @@ hr {
   }
   body .container {
     margin-top: 0px;
-    border: 2px solid red;
     padding-left: 230px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
