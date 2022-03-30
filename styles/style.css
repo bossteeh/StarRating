@@ -76,6 +76,10 @@ body .container .stars.colors {
   color: #fcb126;
 }
 
+hr {
+  color: black;
+}
+
 @media screen and (max-width: 500px) {
   body {
     background-color: white;

@@ -8,7 +8,6 @@ document.getElementById('starone').onclick = function() {
     document.getElementById('starfive').style.color = "black"
     document.getElementById('response').innerHTML = 1;
     console.log(1)
-
 }
 document.getElementById('startwo').onclick = function() {
     document.getElementById('starone').style.color = "rgb(252, 177, 38)"
