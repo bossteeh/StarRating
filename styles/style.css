@@ -39,6 +39,10 @@ body .container {
   width: 400px;
 }
 
+body .container .emojiIcon {
+  font-size: 100px;
+}
+
 body .container button {
   background-color: blueviolet;
   padding: 10px 20px;
