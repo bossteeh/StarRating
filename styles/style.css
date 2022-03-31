@@ -45,6 +45,10 @@ body .container {
   width: 400px;
 }
 
+body .container .smile {
+  width: 300px;
+}
+
 body .container h2 span {
   font-size: 100px;
   position: relative;
