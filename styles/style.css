@@ -27,9 +27,9 @@ body {
 }
 
 body .container {
-  margin-top: 100px;
+  margin-top: 50px;
   border-radius: 20px;
-  padding: 80px;
+  padding: 40px 80px;
   background-color: white;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -41,8 +41,20 @@ body .container {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  min-height: 350px;
+  min-height: 400px;
   width: 400px;
+}
+
+body .container h2 span {
+  font-size: 100px;
+  position: relative;
+  -webkit-transform: scale(2, 3);
+          transform: scale(2, 3);
+  -webkit-transform: rotate(10deg);
+          transform: rotate(10deg);
+  right: 0;
+  top: 19px;
+  color: #e4852c;
 }
 
 body .container .emojiIcon {
@@ -50,16 +62,24 @@ body .container .emojiIcon {
 }
 
 body .container button {
-  background-color: blueviolet;
+  background-color: #e4852c;
+  border: 1px solid #ec9614;
+  -webkit-box-shadow: 0px 2px 9px #e4852c;
+          box-shadow: 0px 2px 9px #e4852c;
   padding: 10px 20px;
   border-radius: 5px;
-  -webkit-box-shadow: 5px 5px 5px darkgray;
-          box-shadow: 5px 5px 5px darkgray;
 }
 
 body .container button a {
   text-decoration: none;
   color: white;
+}
+
+body .container button:hover {
+  background-color: #e96112;
+  border: 1px solid #e96112;
+  -webkit-box-shadow: 0px 2px 9px #e96112;
+          box-shadow: 0px 2px 9px #e96112;
 }
 
 body .container img {
@@ -86,17 +106,22 @@ body .container .stars.colors {
   color: #fcb126;
 }
 
+body .container .stars #starone:hover,
+body .container .stars #startwo:hover,
+body .container .stars #starthree:hover,
+body .container .stars #starfour:hover,
+body .container .stars #starfive:hover {
+  color: #818181;
+}
+
 hr {
   color: black;
 }
 
 @media screen and (max-width: 500px) {
-  body {
-    background-color: white;
-  }
   body .container {
+    position: fixed;
     margin-top: 0px;
-    padding-left: 230px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -104,6 +129,9 @@ hr {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    min-height: 200px;
+    width: 400px;
+    padding-bottom: 80px;
   }
 }
 /*# sourceMappingURL=style.css.map */

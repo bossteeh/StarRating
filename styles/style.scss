@@ -14,31 +14,50 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   .container {
-    margin-top: 100px;
+    margin-top: 50px;
     border-radius: 20px;
-    padding: 80px;
+    padding: 40px 80px;
     background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-height: 350px;
+    min-height: 400px;
     width: 400px;
-    .emojiIcon{
-        font-size: 100px;
-    }
-    button{
-        background-color: blueviolet;
-        padding: 10px 20px;
-        border-radius: 5px;
-        box-shadow: 5px 5px 5px darkgray;
-        a{
-            text-decoration: none;
-            color: white;
+    h2{
+        span{
+            font-size: 100px;
+            position: relative;
+            transform: scale(2,3);
+            transform:rotate(10deg);
+            right: 0;
+            top: 19px;
+            color: rgb(228, 133, 44);
         }
-
     }
-    img{
-        width: 200px
+    .emojiIcon {
+      font-size: 100px;
+    }
+    button {
+      background-color: rgb(228, 133, 44);
+      border: 1px solid rgb(236, 150, 20);
+      box-shadow: -0px 2px 9px rgb(228, 133, 44);
+      padding: 10px 20px;
+      border-radius: 5px;
+      a {
+        text-decoration: none;
+        color: white;
+      }
+    }
+    button:hover {
+        background-color: rgb(233, 97, 18);
+      border: 1px solid rgb(233, 97, 18);
+      box-shadow: -0px 2px 9px rgb(233, 97, 18);
+    //   background-color: rgb(46, 136, 28);
+    //   box-shadow: -0px 2px 9px rgb(46, 136, 28);
+    //   border: 1px solid rgb(46, 136, 28);
+    }
+    img {
+      width: 200px;
     }
     p {
       width: 280px;
@@ -52,22 +71,30 @@ body {
       &.colors {
         color: rgb(252, 177, 38);
       }
+      #starone:hover,
+      #startwo:hover,
+      #starthree:hover,
+      #starfour:hover,
+      #starfive:hover {
+        color: rgb(129, 129, 129);
+      }
     }
   }
 }
-hr{
-    color: black;
+hr {
+  color: black;
 }
 @media screen and (max-width: 500px) {
   body {
-    background-color: white;
+    // background-color: white;
     .container {
+        position: fixed;
       margin-top: 0px;
-    //   border: 2px solid red;
-    padding-left: 230px;
       flex-direction: column;
       align-items: center;
-
+      min-height: 200px;
+    width: 400px;
+    padding-bottom: 80px;
     }
   }
 }
