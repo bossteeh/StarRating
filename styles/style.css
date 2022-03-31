@@ -52,8 +52,8 @@ body .container h2 span {
           transform: scale(2, 3);
   -webkit-transform: rotate(10deg);
           transform: rotate(10deg);
-  right: 0;
-  top: 19px;
+  right: 16px;
+  top: 24px;
   color: #e4852c;
 }
 
@@ -64,8 +64,6 @@ body .container .emojiIcon {
 body .container button {
   background-color: #e4852c;
   border: 1px solid #ec9614;
-  -webkit-box-shadow: 0px 2px 9px #e4852c;
-          box-shadow: 0px 2px 9px #e4852c;
   padding: 10px 20px;
   border-radius: 5px;
 }

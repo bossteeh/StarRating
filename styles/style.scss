@@ -29,8 +29,8 @@ body {
             position: relative;
             transform: scale(2,3);
             transform:rotate(10deg);
-            right: 0;
-            top: 19px;
+            right: 16px;
+            top: 24px;
             color: rgb(228, 133, 44);
         }
     }
@@ -40,7 +40,7 @@ body {
     button {
       background-color: rgb(228, 133, 44);
       border: 1px solid rgb(236, 150, 20);
-      box-shadow: -0px 2px 9px rgb(228, 133, 44);
+    //   box-shadow: -0px 2px 9px rgb(228, 133, 44);
       padding: 10px 20px;
       border-radius: 5px;
       a {
