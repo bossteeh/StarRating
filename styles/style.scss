@@ -7,9 +7,15 @@ body {
   align-items: center;
   align-content: center;
   align-self: center;
-  background-color: rgb(221, 218, 218);
+  background-color: rgb(115, 16, 172);
+  background-color: rgb(51, 49, 49);
+  background-image: url(/images/booklybg-2.jpg);
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: cover;
   .container {
     margin-top: 100px;
+    border-radius: 20px;
     padding: 80px;
     background-color: white;
     display: flex;

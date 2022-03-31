@@ -18,11 +18,17 @@ body {
       align-content: center;
   -ms-flex-item-align: center;
       align-self: center;
-  background-color: #dddada;
+  background-color: #7310ac;
+  background-color: #333131;
+  background-image: url(/images/booklybg-2.jpg);
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 body .container {
   margin-top: 100px;
+  border-radius: 20px;
   padding: 80px;
   background-color: white;
   display: -webkit-box;
